@@ -11,27 +11,27 @@ import Team4 from "../src/assets/img/team-4-470x470.png";
 export default function CardTable() {
   return (
     <Card>
-      <CardHeader color="purple" contentPosition="left">
-        <h2 className="text-white text-2xl">Card Table</h2>
+      <CardHeader color="blue" contentPosition="left">
+        <h2 className="text-white text-2xl">Tabela de Cards</h2>
       </CardHeader>
       <CardBody>
         <div className="overflow-x-auto">
           <table className="items-center w-full bg-transparent border-collapse">
             <thead>
               <tr>
-                <th className="px-2 text-purple-500 align-middle border-b border-solid border-gray-200 py-3 text-sm whitespace-nowrap font-light text-left">
+                <th className="px-2 text-purple-500 align-middle border-b border-solid text-primaryBlue medium font-serif py-3 text-sm whitespace-nowrap font-light text-left">
                   Projeto
                 </th>
-                <th className="px-2 text-purple-500 align-middle border-b border-solid border-gray-200 py-3 text-sm whitespace-nowrap font-light text-left">
+                <th className="px-2 text-purple-500 align-middle border-b border-solid text-primaryBlue medium font-serif py-3 text-sm whitespace-nowrap font-light text-left">
                   Budget
                 </th>
-                <th className="px-2 text-purple-500 align-middle border-b border-solid border-gray-200 py-3 text-sm whitespace-nowrap font-light text-left">
+                <th className="px-2 text-purple-500 align-middle border-b border-solid text-primaryBlue medium font-serif py-3 text-sm whitespace-nowrap font-light text-left">
                   Status
                 </th>
-                <th className="px-2 text-purple-500 align-middle border-b border-solid border-gray-200 py-3 text-sm whitespace-nowrap font-light text-left">
+                <th className="px-2 text-purple-500 align-middle border-b border-solid text-primaryBlue medium font-serif py-3 text-sm whitespace-nowrap font-light text-left">
                   Users
                 </th>
-                <th className="px-2 text-purple-500 align-middle border-b border-solid border-gray-200 py-3 text-sm whitespace-nowrap font-light text-left">
+                <th className="px-2 text-purple-500 align-middle border-b border-solid text-primaryBlue medium font-serif py-3 text-sm whitespace-nowrap font-light text-left">
                   Completion
                 </th>
               </tr>

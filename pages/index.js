@@ -3,6 +3,7 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { SearchIcon } from "@heroicons/react/solid";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import Tables from "./Tables";
+import Footer from "./components/Footer";
 
 const people = [
   {
@@ -57,13 +58,13 @@ export default function Navbar(props) {
                       href="#"
                       className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     >
-                      Projects
+                      Projetos
                     </a>
                     <a
                       href="#"
                       className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                     >
-                      Calendar
+                      Calendário
                     </a>
                   </div>
                 </div>
@@ -256,6 +257,7 @@ export default function Navbar(props) {
             </div>
           </Disclosure.Panel>
           <Tables />
+          <Footer />
         </>
       )}
     </Disclosure>
