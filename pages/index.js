@@ -4,7 +4,7 @@ import { SearchIcon } from "@heroicons/react/solid";
 import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import Tables from "./Tables";
 import Footer from "./components/Footer";
-
+import StackedList from "./components/StackedList";
 const people = [
   {
     name: "Jane Cooper",
@@ -257,6 +257,7 @@ export default function Navbar(props) {
             </div>
           </Disclosure.Panel>
           <Tables />
+          <StackedList />
           <Footer />
         </>
       )}
